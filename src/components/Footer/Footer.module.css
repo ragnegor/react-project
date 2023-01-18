@@ -1,0 +1,27 @@
+footer {
+  padding: 114px 0 123px 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  text-align: center;
+  margin: 0 0 43px 0;
+}
+
+.subheader {
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 35px 0;
+}
+
+.media {
+  font-family: 'Gilroy-Medium';
+  font-size: 14px;
+  color: #828282;
+}
+
+
+

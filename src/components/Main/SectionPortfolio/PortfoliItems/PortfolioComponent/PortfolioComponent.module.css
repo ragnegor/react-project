@@ -1,0 +1,17 @@
+.portfolioComponent {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.portfolioComponent img {
+  width: 100%;
+}
+
+.portfolioComponent a {
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  color: black;
+  display: block;
+  text-align: center;
+  margin-top: 44px;
+}

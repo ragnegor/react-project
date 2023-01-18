@@ -1,0 +1,47 @@
+.shortInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 55px;
+}
+
+.shortInfo :nth-child(3) {
+  align-items: self-end;
+}
+
+.name {
+  font-family: "Gilroy-Bold";
+  font-size: 47px;
+  margin: 0;
+}
+
+.info {
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  margin: 0;
+}
+
+.languages {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  transform: rotate(-90deg) translate(0px, 45px);
+}
+
+.languages li a {
+  font-family: Gilroy-Bold;
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  transition: 0.3s ease all;
+}
+
+.languages li a:hover {
+  color: black;
+  transition: 0.3s ease all;
+}
+
+.languages :nth-child(2) {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+}

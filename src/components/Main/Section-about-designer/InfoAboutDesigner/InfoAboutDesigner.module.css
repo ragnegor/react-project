@@ -1,0 +1,15 @@
+.header {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  text-align: center;
+  margin: 0 0 17px 0;
+}
+
+.info p {
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  text-align: center;
+}
+.info :nth-child(2) {
+  margin: 50px 0;
+}

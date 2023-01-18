@@ -1,0 +1,13 @@
+.btn {
+  width: 180px;
+  height: 42px;
+  margin: 0 0 85px 0;
+  border: none;
+  border-radius: 20px;
+  background: black;
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
