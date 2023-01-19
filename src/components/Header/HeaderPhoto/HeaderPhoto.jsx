@@ -4,7 +4,7 @@ import style from "./HeaderPhoto.module.css"
 
 function HeaderPhoto () {
   return (
-   <img className={style.photo} src={photo} alt="den.novik.photo"/>
+   <img className={style.photo} src={photo} alt="designer_photo"/>
   )
 }
 

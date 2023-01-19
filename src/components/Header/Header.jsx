@@ -1,19 +1,19 @@
 import React from "react";
-import Container from "../Container/Container";
-import "./header.module.css";
+import style from "./header.module.css";
 import Navigation from "./Navigation/Navigation";
 import ShortInfo from "./short-info/short-info";
 import HeaderPhoto from "./HeaderPhoto/HeaderPhoto";
+import common from "../../common/common.module.css";
 
 
 function Header () {
   return (
     <header>
-      <Container>
+      <div className={common.container}>
         <Navigation/>
         <ShortInfo/>
         <HeaderPhoto/>
-      </Container>
+      </div>
     </header>
   )
 }

@@ -1,15 +1,16 @@
 import React from "react";
-import Container from "../../Container/Container";
 import style from "./SectionPortfolio.module.css";
 import PortfolioItems from "./PortfoliItems/PortfolioItems";
+import common from "../../../common/common.module.css";
 
-function SectionPortfolio () {
+function SectionPortfolio() {
   return (
     <div id="SectionPortfolio" className={style.sectionPortfolio}>
-      <Container>
+      <div className={common.container}>
         <h2 className={style.header}>Portfolio</h2>
         <PortfolioItems/>
-      </Container>
+      </div>
+
     </div>
   )
 }
