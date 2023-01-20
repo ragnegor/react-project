@@ -3,11 +3,11 @@ import InfoAboutDesigner from "./InfoAboutDesigner/InfoAboutDesigner";
 import style from "./SectionAboutDesigner.module.css";
 import common from "../../../common/common.module.css";
 
-function SectionAboutDesigner() {
+function SectionAboutDesigner(props) {
   return (
     <section id="Section-about-designer" className={style.SectionAboutDesigner}>
       <div className={common.container}>
-        <InfoAboutDesigner/>
+        <InfoAboutDesigner data={props.data}/>
       </div>
     </section>
   )

@@ -4,15 +4,15 @@ import Button from "./Button/Button";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import common from "../../common/common.module.css";
 
-function Footer() {
+function Footer(props) {
   return (
     <footer id="Contacts">
       <div className={common.container}>
-        <h2>Contacts</h2>
-        <p className={style.subheader}>Want to know more or just chat?<br/>You are welcome!</p>
+        <h2>{props.data.footer.header}</h2>
+        <p className={style.subheader}>{props.data.footer.subheader}</p>
         <Button text={"Send message"}/>
-        <SocialMedia/>
-        <p className={style.media}>Like me on<br/>LinkedIn, Instagram, Behance, Dribble</p>
+        <SocialMedia data={props.data}/>
+        <p className={style.media}>{props.data.footer.description}</p>
       </div>
     </footer>
   )

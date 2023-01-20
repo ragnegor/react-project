@@ -1,17 +1,17 @@
 import React from "react";
 import style from "./Navigation.module.css";
-import NavigationItem from "./NavigationItem";
 
 
-function Navigation () {
+
+function Navigation (props) {
   return (
     <nav>
       <ol>
-        <NavigationItem link={"#"} label={"Home"}/>
-        <NavigationItem link={"#Section-about-designer"} label={"About me"}/>
-        <NavigationItem link={"#SectionsSkills"} label={"Skills"}/>
-        <NavigationItem link={"#SectionPortfolio"} label={"Portfolio"}/>
-        <NavigationItem link={"#Contacts"} label={"Contacts"}/>
+        <li><a href={props.data.header.navigation.link1.link}>{props.data.header.navigation.link1.label}</a></li>
+        <li><a href={props.data.header.navigation.link2.link}>{props.data.header.navigation.link2.label}</a></li>
+        <li><a href={props.data.header.navigation.link3.link}>{props.data.header.navigation.link3.label}</a></li>
+        <li><a href={props.data.header.navigation.link4.link}>{props.data.header.navigation.link4.label}</a></li>
+        <li><a href={props.data.header.navigation.link5.link}>{props.data.header.navigation.link5.label}</a></li>
       </ol>
       <div className={style.line}/>
     </nav>

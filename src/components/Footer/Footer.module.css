@@ -14,6 +14,7 @@ h2 {
   font-family: 'Gilroy-Medium';
   font-size: 18px;
   text-align: center;
+  white-space: pre-wrap;
   margin: 0 0 35px 0;
 }
 

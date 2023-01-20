@@ -1,10 +1,9 @@
 import React from "react";
-import photo from "../../../assets/img/header-photo.svg";
 import style from "./HeaderPhoto.module.css"
 
-function HeaderPhoto () {
+function HeaderPhoto (props) {
   return (
-   <img className={style.photo} src={photo} alt="designer_photo"/>
+   <img className={style.photo} src={props.data.header.shortInfo.picture} alt={props.data.header.shortInfo.alt}/>
   )
 }
 

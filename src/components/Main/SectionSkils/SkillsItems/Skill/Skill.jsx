@@ -8,9 +8,9 @@ function Skill ({icon, alt, title, quantityStars}) {
   const rating = [];
   for (let i = 0; i < 5; i++) {
     if (i < quantityStars) {
-      rating.push(<StarBlack/>);
+      rating.push(<StarBlack key={i}/>);
     }  else {
-      rating.push(<StarGray/>);
+      rating.push(<StarGray key={i}/>);
     }
   }
   return (

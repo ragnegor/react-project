@@ -4,13 +4,13 @@ import SkillsItems from "./SkillsItems/SkillsItems";
 import common from "../../../common/common.module.css";
 
 
-function SectionsSkills() {
+function SectionsSkills(props) {
   return (
     <section id="SectionsSkills" className={style.sectionSkills}>
       <div className={common.container}>
-        <div className={style.header}>Skills</div>
-        <p className={style.subHeader}>I work in such programs as</p>
-        <SkillsItems/>
+        <div className={style.header}>{props.data.sectionSkills.header}</div>
+        <p className={style.subHeader}>{props.data.sectionSkills.subheader}</p>
+        <SkillsItems data={props.data}/>
       </div>
     </section>
   )
